@@ -53,6 +53,10 @@ h2 {
     font-size: 2.3rem;
 }
 
+h3 {
+    font-size: 1.5rem;
+}
+
 /* #region site_header */
 
 nav>.big_container {
@@ -176,3 +180,23 @@ main .big_container {
 }
 /* #endregion enterprise */
 /* #region partner */
+
+.left_partner {
+    width: 60%;
+    
+}
+
+.right_partner {
+    width: 40%;
+    padding: 0 0 0 1.5rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.partner img {
+    width: 100%;
+}
+
+.partner h3 {
+    padding-bottom: 1rem;
+}
