@@ -4,10 +4,18 @@
     box-sizing: border-box;
 }
 
+/* color palette */
+
+:root{
+    --light-color: white;
+    --button-color: rgba(0, 97, 255, 1);
+    --jumbo-background: rgba(180, 208, 231, 1);
+}
+
+
 /* #region utilitis */
 
 nav.debug {
-    height: 50px;
     border: 1px solid black;
 }
 
@@ -21,4 +29,93 @@ footer.debug {
     height: 200px;
     border: 1px solid black;
 
+}
+
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+header li {
+    list-style: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+/* #region site_header */
+nav>.big_container {
+    width: 95vw;
+    max-width: 1900px;
+    margin: auto;
+    display: flex;
+}
+
+nav {
+    background-color: var(--light-color);
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+ .nav-left {  /*link-left-nav */
+    width: 50%;       
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.nav-left>ul{
+    display: flex;
+    gap: 2rem;
+}
+
+
+.nav-right {  /*link-right-nav */
+    width: 50%;       
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-right>ul{
+    display: flex;
+    gap: 2rem;
+    
+}
+
+nav button {
+    border: none;
+    background-color: var(--button-color);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    color: white;
+}
+
+/* #endregion site_header */
+.jumbotron {
+    background-color: var(--jumbo-background);
+}
+
+main .big_container {
+    width: 60%;
+    max-width: 1150px;
+    margin: auto;
+}
+
+.jumbotron h1{
+    font-size: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+
+.jumbo-left {
+    width: 35%;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.jumbo-right {
+    height: 50px;
+    width: 65%;
 }
