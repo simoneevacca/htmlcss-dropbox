@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #region utilitis */
+
+nav.debug {
+    height: 50px;
+    border: 1px solid black;
+}
+
+section.debug {
+    height: 200px;
+    border: 1px solid black;
+
+}
+
+footer.debug {
+    height: 200px;
+    border: 1px solid black;
+
+}
