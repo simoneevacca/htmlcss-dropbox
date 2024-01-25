@@ -10,6 +10,7 @@
     --light-color: white;
     --button-color: rgba(0, 97, 255, 1);
     --jumbo-background: rgba(180, 208, 231, 1);
+    --freetrial-title: rgba(97, 8, 43, 1);
 }
 
 
@@ -57,6 +58,13 @@ h3 {
     font-size: 1.5rem;
 }
 
+button.blue-button {
+    border: none;
+    background-color: var(--button-color);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    color: white;
+}
+
 /* #region site_header */
 
 nav>.big_container {
@@ -96,14 +104,6 @@ nav {
     gap: 2rem;
     
 }
-
-nav button {
-    border: none;
-    background-color: var(--button-color);
-    padding: 0.5rem 1rem 0.5rem 1rem;
-    color: white;
-}
-
 /* #endregion site_header */
 
 /* #region site_main */
@@ -138,10 +138,6 @@ main .big_container {
 }
 
 .jumbotron button {
-    border: none;
-    background-color: var(--button-color);
-    padding: 0.5rem 1rem 0.5rem 1rem;
-    color: white;
     width: 70%;
 }
 
@@ -239,5 +235,31 @@ main .big_container {
     height: 50%;
     width: 50%;
     border: 1px solid black;
-
 }
+/* #endregion team */
+/* #region free_trial */
+.free-trial {
+    background-color: var(--jumbo-background);
+    padding: 5rem 0 5rem 0;
+}
+
+.free-trial .small_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.free-trial h2,button {
+    width: 50%;
+}
+
+.free-trial h2 {
+    color: var(--freetrial-title);
+}
+
+.free-trial button {
+    width: 30%;
+    height: 2rem;
+    align-self: center;
+    border: none;
+}
+
