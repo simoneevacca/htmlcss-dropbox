@@ -44,7 +44,17 @@ header li {
     display: flex;
 }
 
+.small_container {
+    width: 50%;
+    margin: auto;
+}
+
+h2 {
+    font-size: 2.3rem;
+}
+
 /* #region site_header */
+
 nav>.big_container {
     width: 95vw;
     max-width: 1900px;
@@ -91,8 +101,13 @@ nav button {
 }
 
 /* #endregion site_header */
-.jumbotron {
+
+/* #region site_main */
+
+/* #region jumbotron */
+.jumbotron {        
     background-color: var(--jumbo-background);
+    padding-bottom: 0.5rem;
 }
 
 main .big_container {
@@ -106,7 +121,6 @@ main .big_container {
     padding-top: 3rem;
     padding-bottom: 2rem;
 }
-
 
 .jumbo-left {
     width: 35%;
@@ -133,5 +147,17 @@ main .big_container {
 }
 
 .jumbotron img{
-    width: 45rem;
+    width: 35rem;
+}
+
+
+.choices {
+    gap: 2rem;
+    padding: 2rem 0 1rem 0;
+}
+
+.col-4 {
+    width: calc((100% / 12) *3);
+    height: 100px;
+    border: 1px solid black;
 }
