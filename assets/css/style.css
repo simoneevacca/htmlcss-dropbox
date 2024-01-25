@@ -210,3 +210,34 @@ main .big_container {
     height: 200px;
     
 }
+/* #endregion business */
+/* #region team */
+
+.team h2 {
+    width: 67%;
+}
+
+.team_block {
+    display: flex;
+    height: 400px;
+    background-color: red;
+}
+
+.team_block>div {
+    border: 1px solid black;
+    height: 100%;
+    flex-grow:1;
+    
+}
+
+.small_square {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.small_square div {
+    height: 50%;
+    width: 50%;
+    border: 1px solid black;
+
+}
