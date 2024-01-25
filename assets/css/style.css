@@ -23,13 +23,13 @@ nav.debug {
 section.debug {
     height: 200px;
     border: 1px solid black;
-
+    
 }
 
 footer.debug {
     height: 200px;
     border: 1px solid black;
-
+    
 }
 
 
@@ -37,7 +37,7 @@ header a {
     text-decoration: none;
     color: black;
 }
-header li {
+li {
     list-style: none;
 }
 
@@ -64,6 +64,11 @@ button.blue-button {
     padding: 0.5rem 1rem 0.5rem 1rem;
     color: white;
 }
+.medium_container {
+    width: 60%;
+    max-width: 1150px;
+    margin: auto;
+}
 
 /* #region site_header */
 
@@ -85,7 +90,7 @@ nav {
     gap: 2rem;
     align-items: center;
 }
-.nav-left>ul{
+nav ul{
     display: flex;
     gap: 2rem;
 }
@@ -99,10 +104,13 @@ nav {
     align-items: center;
 }
 
-.nav-right>ul{
+/* .nav-right>ul{
     display: flex;
-    gap: 2rem;
-    
+    gap: 2rem;    
+} */
+
+nav button {
+    width: 15%;
 }
 /* #endregion site_header */
 
@@ -114,11 +122,6 @@ nav {
     padding-bottom: 0.5rem;
 }
 
-main .big_container {
-    width: 60%;
-    max-width: 1150px;
-    margin: auto;
-}
 
 .jumbotron h1{
     font-size: 5rem;
@@ -262,4 +265,35 @@ main .big_container {
     align-self: center;
     border: none;
 }
+/* #endregion free_trial */
+/* #region faq */
+.ask {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.ask div {
+    padding: 2rem 2rem 2rem 0rem;
+}
+/* #endregion faq */
+/* #region footer */
+footer {
+    background-color: black;
+}
 
+footer li {
+    padding-bottom: 0.5rem;
+    
+}
+footer a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.top-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-footer 
