@@ -149,7 +149,12 @@ main .big_container {
 .jumbotron img{
     width: 35rem;
 }
+/* #endregion jumbotron */
 
+/* #region plans */
+.plans {
+    padding: 5rem 0 5rem 0;
+}
 
 .choices {
     gap: 2rem;
@@ -158,6 +163,16 @@ main .big_container {
 
 .col-4 {
     width: calc((100% / 12) *3);
-    height: 100px;
+    height: 500px;
     border: 1px solid black;
+    flex-grow: 1;
 }
+/* #endregion plans */
+/* #region enterprise */
+
+.enterprise .small_container {
+    border: 1px solid black;
+    height: 100%;
+}
+/* #endregion enterprise */
+/* #region partner */
