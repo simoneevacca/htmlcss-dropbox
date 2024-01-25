@@ -165,11 +165,10 @@ main .big_container {
     padding: 2rem 0 1rem 0;
 }
 
-.col-4 {
-    width: calc((100% / 12) *3);
+.plans .col-4 {
+    width: calc((100% / 12) *4);
     height: 500px;
     border: 1px solid black;
-    flex-grow: 1;
 }
 /* #endregion plans */
 /* #region enterprise */
@@ -189,8 +188,6 @@ main .big_container {
 .right_partner {
     width: 40%;
     padding: 0 0 0 1.5rem;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .partner img {
@@ -198,5 +195,18 @@ main .big_container {
 }
 
 .partner h3 {
-    padding-bottom: 1rem;
+    padding: 2rem 0 1rem 0;
+}
+
+/* #endregion partner */
+/* #region business */
+.business .d-flex{
+    flex-wrap: wrap
+}
+
+.business .col-4{
+    width: calc((100% / 12) *4);
+    border: 1px solid black;
+    height: 200px;
+    
 }
