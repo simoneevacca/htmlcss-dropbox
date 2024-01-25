@@ -104,11 +104,6 @@ nav ul{
     align-items: center;
 }
 
-/* .nav-right>ul{
-    display: flex;
-    gap: 2rem;    
-} */
-
 nav button {
     width: 15%;
 }
@@ -119,7 +114,7 @@ nav button {
 /* #region jumbotron */
 .jumbotron {        
     background-color: var(--jumbo-background);
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.8rem;
 }
 
 
@@ -171,14 +166,20 @@ nav button {
 }
 /* #endregion plans */
 /* #region enterprise */
+.enterprise {
+    padding: 5rem 0 5rem 0;
 
+}
 .enterprise .small_container {
     border: 1px solid black;
     height: 100%;
 }
 /* #endregion enterprise */
 /* #region partner */
+.partner {
+    padding: 5rem 0 5rem 0;
 
+}
 .left_partner {
     width: 60%;
     
@@ -199,6 +200,10 @@ nav button {
 
 /* #endregion partner */
 /* #region business */
+.business {
+    padding: 5rem 0 5rem 0;
+
+}
 .business .d-flex{
     flex-wrap: wrap
 }
@@ -211,7 +216,10 @@ nav button {
 }
 /* #endregion business */
 /* #region team */
+.team {
+    padding: 5rem 0 0rem 0;
 
+}
 .team h2 {
     width: 67%;
 }
@@ -267,6 +275,11 @@ nav button {
 }
 /* #endregion free_trial */
 /* #region faq */
+.faq {
+    padding: 5rem 0 5rem 0;
+
+}
+
 .ask {
     display: flex;
     justify-content: space-between;
@@ -279,6 +292,7 @@ nav button {
 /* #region footer */
 footer {
     background-color: black;
+    
 }
 
 footer li {
@@ -294,6 +308,24 @@ footer a {
 .top-footer {
     display: flex;
     justify-content: space-between;
+    padding: 5rem 0 5rem 0;
+
 }
 
-.top-footer 
+.title {
+    font-size: 1.3rem;
+}
+
+footer a{
+    font-size: 0.8rem;
+}
+
+.bottom-footer {
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 2rem 0 2rem;
+}
