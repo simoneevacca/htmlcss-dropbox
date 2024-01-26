@@ -272,7 +272,6 @@ width: 30%;
     width: 67%;
     margin-bottom: 3rem;
 }
-
 .team_block {
     margin-top: 8rem;;
     display: flex;
@@ -291,10 +290,10 @@ width: 30%;
     display: flex;
     align-items: center;
     padding: 3rem;
-    fill: white;
 }
-.team img {
+.small_square img {
     width: 100%;
+    filter: invert();
 }
 .designit-small {
     background-color:#a2d39b;
@@ -323,11 +322,11 @@ width: 30%;
 }
 .designit {
     background-color: #f5f5f5;
-    /* font-size: 0.8rem; */
     padding: 2rem;
 }
-.designit svg {
+.designit img {
     width: 50%;
+    padding-bottom: 2rem;
 }
 .designit p{
     margin-top: 2rem;
