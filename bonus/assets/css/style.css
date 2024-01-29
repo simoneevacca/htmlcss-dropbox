@@ -44,9 +44,12 @@ button.blue-button {
     background-color: var(--button-color);
     padding: 0.5rem 1rem 0.5rem 1rem;
     color: white;
+    opacity: 1;
+    transition: all 500ms;
 }
-
-
+.blue-button:hover{
+    opacity: 0.75;
+}
 .medium_container {
     width: 60%;
     max-width: 1150px;
@@ -64,7 +67,7 @@ nav>.big_container {
 
 nav {
     background-color: var(--light-color);
-    padding: 1rem 0 1rem 0;
+    /* padding: 1rem 0 1rem 0; */
 }
 
  .nav-left {  /*link-left-nav */
@@ -76,8 +79,15 @@ nav {
 nav ul{
     display: flex;
     gap: 2rem;
-}
+    padding: 1rem 0 1rem 0;
 
+}
+nav a {
+    padding: 1rem 0 1rem 0;
+}
+nav a:hover{
+    border-bottom: 3px solid rgb(0, 0, 188);
+}
 
 .nav-right {  /*link-right-nav */
     width: 50%;       
