@@ -6,6 +6,10 @@
 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* color palette */
 
 :root{
@@ -140,6 +144,7 @@ nav button {
     font-size: 2rem;
     margin-top: 1rem;
     color: black;
+   
 }
 
 .jumbotron img{
