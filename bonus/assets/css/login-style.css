@@ -96,3 +96,25 @@ input {
     font-size: 1.2rem;
     font-weight: 500;
 }
+
+footer {
+    margin-top: 10rem;
+}
+
+.foot-container {
+    width: 60%;
+    margin: auto;
+}
+.footer-top {
+    display: flex;
+    gap: 2rem;
+}
+footer hr{
+    width: 15%;
+    margin: 3rem 0;
+}
+.footer-bottom{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+} 
