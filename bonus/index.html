@@ -24,9 +24,25 @@
                 <div class="nav-left">
                     <img src="./assets/img/logo-small.png" alt="">
                     <ul>
-                        <li><a href="">Perchè Dropox</a></li>
-                        <li><a href="">Funzioni</a></li>
-                        <li><a href="">Piani e Prezzi</a></li>
+                        <div class="dropdown">
+                            <li><a class="drop-a" href="">Perchè Dropox</a></li>
+                            <div class="dropdown-content">
+                                <a href="#">lorem</a>
+                                <a href="#">lorem</a>
+                                <a href="#">lorem</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <li><a href="">Funzioni</a></li>
+                            <div class="dropdown-content">
+                                <a href="#partner">Partner</a>
+                                <a href="#business">Business</a>
+                                <a href="#">lorem</a>
+                                <a href="#">lorem</a>
+                                <a href="#">lorem</a>
+                            </div>
+                        </div>
+                        <li><a href="#plans">Piani e Prezzi</a></li>
                     </ul>
                 </div>
                 <div class="nav-right">
@@ -66,7 +82,7 @@
         </section>
         <!-- /.jumbotron -->
 
-        <section id="plans"  class="plans">
+        <section id="plans" class="plans">
             <div class="small_container">
                 <h2>Trova il piano business che fa per te</h2>
                 <div class="choices d-flex">
@@ -172,7 +188,7 @@
         </section>
         <!-- /.enterprise -->
 
-        <section class="partner">
+        <section id="partner" class="partner">
             <div class="small_container d-flex">
                 <div class="left_partner">
                     <img src="./assets/img/partner.png" alt="">
@@ -188,7 +204,7 @@
         </section>
         <!-- /.partner -->
 
-        <section class="business">
+        <section id="business" class="business">
             <div class="small_container">
                 <h2>Esegui più operazioni con Dropbox business</h2>
                 <div class="d-flex">
@@ -315,7 +331,7 @@
             </div>
         </section>
         <!-- /.faq -->
-        
+
     </main>
     <!-- /.site_main -->
 
