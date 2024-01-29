@@ -78,6 +78,7 @@ button.blue-button {
     margin: auto;
 }
 
+
 /* #region site_header */
 
 nav>.big_container {
@@ -131,6 +132,11 @@ header a {
 
 nav button {
     width: 15%;
+}
+
+#login {
+    color: white;
+
 }
 
 /* #endregion site_header */
